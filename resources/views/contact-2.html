@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 
-<!-- Mirrored from cutesolution.com/html/techSoft/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2023 14:17:22 GMT -->
+<!-- Mirrored from cutesolution.com/html/techSoft/contact-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2023 14:19:41 GMT -->
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -152,10 +152,123 @@
 			</div>
 		</div>
 	</div>
-
-
-@yield('content')
-
+	<!-- End Navbar Area -->
+	<!-- Start Page Title Area -->
+	<div class="page-title-area">
+		<div class="d-table">
+			<div class="d-table-cell">
+				<div class="container">
+					<div class="page-title-content">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>Contact 2</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Page Title Area -->
+	<!-- Start Contact Box Area -->
+	<section class="contact-info-wrapper pt-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="contact-office-address-box">
+						<h5>USA Headquarter</h5>
+						<p>304 NW St Homestead, Florida, Melrose Street, Water Mill, 76B Overlook Drive Chester, PA 19013, Flemingsburg USA.</p>
+						<a href="tel:0802235678">080 707 555-321</a>
+						<a href="mailto:demo@example.com">demo@example.com</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="contact-office-address-box">
+						<h5>New York Office</h5>
+						<p>1540 Pecks Ridge Tilton Rd Flemingsburg, Kentucky(KY), 4104188 Fulton Street Blackwood, NJ 08012, London.</p>
+						<a href="tel:0802235678">080 707 555-321</a>
+						<a href="mailto:demo@example.com">demo@example.com</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="contact-office-address-box">
+						<h5>Panama Office</h5>
+						<p>103 Richard Ave Ashville, Ohio, Water Mill,3468 16th Hwy Pangburn, Arkansas(AR), Charolais Ashville, Virginia, Panama.</p>
+						<a href="tel:0802235678">080 707 555-321</a>
+						<a href="mailto:demo@example.com">demo@example.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact Box Area -->
+	<!-- Start Contact Section -->
+	<div class="contact-section section-padding">
+		<div class="container">
+			<div class="section-title">
+				<h6>Get in Touch</h6>
+				<h2>Contact Us</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-12">
+					<!-- Start Contact Box Area -->
+					<div class="contact-box">
+						<div class="row">
+							<div class="col-lg-12 col-md-12">
+								<div class="single-contact-box-2">
+									<h3>Please get in touch and our expert support team will answer all your questions.</h3>
+									<p>We provide estimates by phone, email, or at your home. The estimate is completely free! Fill out the form, call us <span class="color-text">+707 555-321</span> or <span class="color-text">random@example.com</span>, and leave your telephone number and home address.</p>
+									<ul class="social-icon-box">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+										<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Contact Box Area -->
+				</div>
+				<div class="col-lg-8 col-md-12">
+					<div class="contact-form contact-form-2">
+						<p class="form-message"></p>
+						<form id="contact-form" class="form" action="https://cutesolution.com/html/techSoft/mail.php" method="POST">
+							<div class="row">
+								<div class="col-lg-6 col-md-12">
+									<div class="form-group">
+										<input type="text" name="name" id="name" class="form-control" required placeholder="Your Name"> </div>
+								</div>
+								<div class="col-lg-6 col-md-12">
+									<div class="form-group">
+										<input type="email" name="email" id="email" class="form-control" required placeholder="Your Email"> </div>
+								</div>
+								<div class="col-lg-12 col-md-12">
+									<div class="form-group">
+										<input type="text" name="phone" id="phone" required class="form-control" placeholder="Your Phone"> </div>
+								</div>
+								<div class="col-lg-12 col-md-12">
+									<div class="form-group">
+										<textarea name="message" class="form-control" id="message" cols="30" rows="6" required placeholder="Your Message"></textarea>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12">
+									<button type="submit" class="btn btn-primary">Send Message</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact Section -->
+	<!-- Map Section Start -->
+	<div class="map-area">
+		<div class="map-content">
+			<div class="map-canvas" id="contact-map"></div>
+		</div>
+	</div>
+	<!-- Map Section End -->
 	<!-- Start Footer Section -->
 	<section class="footer-area">
 		<div class="container">
@@ -282,10 +395,15 @@
 	<script src="assets/js/flickity-fade.js"></script>
 	<!-- WOW Min JS -->
 	<script src="assets/js/wow.min.js"></script>
+	<!-- Google Map JS -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ_mGhah8EApmFiXYYBsdBuygviP2M2EE"></script>
+    <script src="assets/js/gmap3.min.js"></script>
+	<!-- Ajax Mail JS -->
+	<script src="assets/js/ajax.mail.js"></script>
 	<!-- Main JS -->
 	<script src="assets/js/main.js"></script>
 </body>
 
 
-<!-- Mirrored from cutesolution.com/html/techSoft/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2023 14:18:20 GMT -->
+<!-- Mirrored from cutesolution.com/html/techSoft/contact-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2023 14:19:41 GMT -->
 </html>
